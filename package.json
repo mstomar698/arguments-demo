@@ -1,0 +1,20 @@
+{
+  "name": "arg-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "bin": {
+    "add": "cli.js",
+    "commit": "commit.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.8.5",
+    "yargs": "^17.6.2"
+  }
+}
